@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+
+.top{
+    display: flex;
+    justify-content: space-around;
+    /* background-color: rebeccapurple; */
+}
+li{
+ list-style: none;
+ font-family: 'Inter', sans-serif;
+}
+.logo{
+    width: 10%;
+    /* background-color: antiquewhite; */
+}
+
+.toplogo{
+   width: 80px;
+   height: 80px;
+   border-radius: 50%;
+   /* background-color: yellow */
+}
+.nav{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+h1, h4{
+    font-family: 'Poppins', sans-serif;
+}
+.user{
+    /* background-color: rebeccapurple; */
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.karpagam{
+    height: 350px;
+    width: 100%;
+    /* background-color: rebeccapurple; */
+    background-color:#2C3532;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.kh12{
+    font-size: 3rem;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.kapragam-img{
+ position: absolute;
+ width: 100%;
+ opacity: 70%;
+}
+.kimg{
+    height: 350px;
+    width: 100%;
+}
+.k-content{
+    position:absolute;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    /* background-color: white; */
+    width: 40%;
+    /* opacity: 100%; */
+    /* color:rebeccapurple; */
+}
+.k-content>h1{
+    color: #D2E9E3;
+}
+.endhead{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    /* background-color: rgb(216, 140, 42); */
+    /* height: 100px; */
+}
+.endlogos{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* gap:40px; */
+    /* background-color: black; */
+}
+.logosborder{
+    margin-top: -50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logosborder:hover{
+    scale: 1.2;
+}
+.bord{
+    height: 120px;
+    position: relative;
+    width: 140px;
+    background-color: #2C3532;
+    border-radius: 50%;
+    border: 10px solid white;
+}
+.borimg{
+    position: absolute;
+    /* z-index: 1000; */
+    display: flex;
+    justify-content: center;
+}
+/* .bimgl{
+    height: 50px;
+    width: 80px;
+} */
+.bimgl{
+    height: 100px;
+    width: 110px;
+}
+.bi2{
+    height: 90px;
+    width: 90px;
+}
+.bi4{
+    height: 90px;
+    width: 100px;
+}
+.bi5{
+    height: 80px;
+    width: 80px;
+}
+.bk{
+    margin-left: 0.5%;
+    margin-bottom: 0.5%;
+}
+/* .border1{
+    background-color: #364702;
+}
+.border2{
+    background-color: #ABB97C;
+}
+.border3{
+    background-color: #C5C5C5;
+}
+.border4{
+    background-color: #CABDAC;
+}
+.border5{
+    background-color: #816E5D;
+} */
+.lgb1{
+    z-index: 100;
+}
+.lgb2{
+    z-index: 100;
+}
+.lgb4{
+    z-index: 100;
+}
+.lgb5{
+    z-index: 100;
+}
+.footer{
+    /* height: 600px; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.footcon{
+    width: 98%;
+    /* background-color:#C5C5C5 ; */
+    background-color:#2C3532;
+    border-radius: 20px;
+    margin-top: -40px;
+    z-index: 10;
+}
+.maincon{
+    width: 80%;
+    /* background-color: #ffffff; */
+    background-color: rgba(217, 217, 217,30%);
+    margin-top: 4%;
+    border-radius: 20px;
+    /* text-align: center; */
+    padding: 3%;
+    margin-left: 10%;
+    display: flex;
+}
+.mainleft{
+    color: white;
+    width: 75%;
+}
+.mainright{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btnenter{
+    border-radius: 10px;
+    width: 55%;
+    height: 50px;
+    color: white;
+    font-size: large;
+    background-color: black;
+}
+.mainconp{
+    font-size: 1.5rem;
+}
+.second{
+    width: 80%;
+    background-color: #6d7a44;
+    margin-top: 4%;
+    border-radius: 20px;
+    /* text-align: center; */
+    padding: 3%;
+    margin-left: 10%;
+}
+.testmonialframe{
+    display: flex;
+    flex-wrap: wrap;
+    gap:40px;
+}
+.challengediv{
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 80%;
+    margin-top: 4%;
+    color: white;
+    /* background-color: rebeccapurple; */
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.challengediv a{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .................Function bar........... */
+.vr{
+    border-left: 5px solid #D2E9E3;
+    height: 50px;
+}

@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+background-repeat: no-repeat;
+background-size: cover;
+background-color: #2C3532;
+}
+h2{
+    font-family: 'Nunito Sans', sans-serif;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+}
+label{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 550;
+}
+button{
+    font-family: 'Poppins', sans-serif;
+}
+.box{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login{
+    margin-top: 10px;
+    font-weight: 400px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: green;
+}
+.form{
+    width: 100%;
+  height: 85%;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    padding: 32px;
+    background-color: white;
+    border-radius: 8px;
+    /* margin-left: 45%; */
+}
+.formblock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 90%;
+    margin-top: 2%;
+}
+.form-group{
+    margin-bottom: 20px;
+    height: 48px;
+    /* background-color: brown; */
+    position: relative;
+}
+.form-control{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background: none;
+    border: 1px solid gray;
+    outline: none;
+    padding: 15px;
+    border-radius: 5px;
+    z-index: 1;
+}
+.form-label{
+    position: absolute;
+    top:15px;
+    left:15px;
+    padding: 0 15px;
+    background-color:white;
+    font-size: 14px;
+}
+.form-control:focus+.form-label{
+    top:-8px;
+    z-index: 10;
+    color:green;
+}
+.form-control:focus+.form-label:invalid{
+    top:-8px;
+    z-index: 10;
+    color:red;
+}
+
+.form-control:focus:valid{
+    border:2px solid green;
+}
+.form-control:focus:invalid{
+    border:2px solid red;
+}
+.form-control:not(:focus):valid+label{
+    top: -8px;
+    z-index: 10;
+}
+.bottom-box{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bottom-box a{
+    text-decoration: none;
+    color:green;
+    font-size: 17px;
+    font-weight: 500px;
+}
+.form-button{
+    display: block;
+    padding: 12px 32px;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: .3s;
+    background-color: green;
+}
+.form-button:hover{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+img{
+    width:280px;
+    height: 170px;
+    margin-left: 30px;
+}
+.haveac {
+    display: flex;
+}
+.haveac p{
+    padding-right: 10px;
+}
+.haveac a{
+    text-decoration: none;
+    color:green;
+}
+.innerdiv{
+    display: flex;
+    background-color: #D2E9E3;
+    border-radius: 20px;
+    height: 65%;
+    width: 60%;
+}
+.in-img{
+    width: 50%;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+}
+.in-logo{
+    width: 80%;
+    height: 80%;
+    background-color: white;
+    border-radius: 20px;
+}
+
+
+
+.form-button a{
+    text-decoration: none;
+    color: white;
+}
+
+@media (max-width:1366px) and (max-height:768px){
+.bottom-box{
+    margin-top: 0%;
+}
+}
+@media (max-width:900px) and (max-height:900px){
+    .innerdiv{
+        height: 95%;
+        width: 95%;
+        flex-direction: column;
+    }
+    .in-img{
+        width: 80%;
+        margin-left: 10%;
+        align-items: center;
+        /* background-color: aqua; */
+    }
+    .in-logo{
+        width: 75%;
+        height: 75%;
+        background-color: white;
+        border-radius: 20px;
+    }
+    .formblock{
+        width: 80%;
+        height: 90%;
+        /* margin-top: 2%; */
+        margin-left: 10%;
+    }
+    .form{
+        height: 95%;
+    }
+}
